@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Video files (don't commit large video files)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.flv
+*.wmv
+
+# Audio files
+*.mp3
+*.wav
+*.aac
+*.flac
+
+# Image files (except small ones like logos)
+*.jpg
+*.jpeg
+*.png
+*.gif
+# Exception for small files:
+!logo.png
+!intro.mp4
+!outro.mp4
+
+# Output directories
+output/
+clips/
+temp/
+tmp/
+
+# Logs
+*.log
+
+# API Keys (double check)
+secrets.txt
+keys.txt
+
+# Model files (if using local models)
+models/
+*.bin
+*.gguf
+*.ggml
+
+# Metadata
+clips_metadata.json

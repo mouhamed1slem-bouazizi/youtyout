@@ -1,0 +1,4 @@
+moviepy<2
+openai
+google-generativeai
+Pillow
